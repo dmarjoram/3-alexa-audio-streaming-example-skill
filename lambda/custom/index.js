@@ -6,16 +6,16 @@ const Alexa = require('ask-sdk-core');
 
 const STREAMS = [
   {
-    'token': 'dabble-radio-1',
-    'url': 'https://stream.zeno.fm/efe91skxn18uv.m3u',
+    'token': 'cheshire-fusion-1',
+    'url': 'https://mcrg-stream.gb7dh.co.uk/gb7dz',
     'metadata': {
-      'title': 'Dabble Radio',
-      'subtitle': 'Music for coders',
+      'title': 'GB7Dee zed Fusion Repeater on Mow Cop',
+      'subtitle': 'Live stream from the Mow Cop Fusion Repeater',
       'art': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png',
+            'contentDescription': 'GB7DZ Repeater on Mow Cop',
+            'url': 'https://www.gb7dh.co.uk/images/stream/gb7dz-stream-512.png',
             'widthPixels': 512,
             'heightPixels': 512,
           },
@@ -24,8 +24,8 @@ const STREAMS = [
       'backgroundImage': {
         'sources': [
           {
-            'contentDescription': 'Dabble Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png',
+            'contentDescription': 'GB7DZ Repeater, Mow Cop',
+            'url': 'https://www.gb7dh.co.uk/images/stream/gb7dz-stream-background-1200x800.jpg',
             'widthPixels': 1200,
             'heightPixels': 800,
           },
@@ -83,7 +83,7 @@ const AboutIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AboutIntent';
   },
   handle(handlerInput) {
-    const speechText = 'This is an audio streaming skill that was built with a free template from skill templates dot com';
+    const speechText = 'This is an audio streaming skill that allows you to listen to Fusion amateur radio repeaters in Cheshire, UK';
 
     return handlerInput.responseBuilder
       .speak(speechText)
