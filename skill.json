@@ -2,20 +2,21 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
+        "en-GB": {
           "summary": "An audio streaming example skill.",
           "examplePhrases": [
-            "Alexa, open Template Three",
-            "Alexa, play Template Three",
-            "Alexa, ask Template Three to play"
+            "Alexa, open Cheshire Fusion",
+            "Alexa, play Cheshire Fusion"
           ],
           "keywords": [
             "audio streaming",
-            "music",
-            "live music"
+            "radio",
+            "ham radio",
+            "digital voice",
+            "communications"
           ],
-          "name": "Template 3 - Audio Streaming Example",
-          "description": "A starter template for an Alexa audio streaming skill.",
+          "name": "Cheshire Fusion - Live Audio Stream",
+          "description": "A live audio stream of repeaters in Cheshire, GB7DH, GB7DZ and GB7WH.",
           "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-sm.png",
           "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-lg.png"
         }
@@ -42,9 +43,9 @@
     "privacyAndCompliance": {
       "allowsPurchases": false,
       "locales": {
-        "en-US": {
-          "termsOfUseUrl": "http://dabblelab.com/terms",
-          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        "en-GB": {
+          "termsOfUseUrl": "https://gb7dh.co.uk/terms",
+          "privacyPolicyUrl": "https://gb7dh.co.uk/privacy"
         }
       },
       "isExportCompliant": true,
